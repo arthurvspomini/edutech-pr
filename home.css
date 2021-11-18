@@ -1,0 +1,336 @@
+/* CABEÇALHO */
+
+
+
+.cabecalho {
+    background: rgb(0, 0, 56);
+    border: 3px solid #0047ab;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho__planeta1, .cabecalho__planeta2 {
+    width: 300px;
+    height: 72px;
+}
+
+.cabecalho__texto {
+    color: #4169e1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin: 18.5px 5px;
+}
+
+
+
+/* CONTEÚDO */
+
+
+
+#imagem-fundo {
+    height: 2200px;
+    background-image: url(background.jpg);
+}
+
+.main__texto {
+    display: block;
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    color: #4169e1;
+    font-size: 40px;
+    text-align: center;
+}
+
+.robo {
+    margin-left: 3rem;
+}
+
+
+
+/* PLANETAS */
+
+.planetas {
+    margin: 1000px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#mostrar-sol {
+    display: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #fdfdfd;
+    position: absolute;
+    top: 1665px;
+    left: 645px;
+}
+
+#passar-mouse:hover #mostrar-sol {
+    display: block;
+}
+
+.planetas__sol {
+    display: block;
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    top: 1400px;
+    left: 560px;
+}
+
+.planetas__sol:hover {
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+#mostrar-mercurio {
+    display: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #fdfdfd;
+    position: absolute;
+    top: 1695px;
+    left: 715px;
+}
+
+#passar-mouse:hover #mostrar-mercurio {
+    display: block;
+}
+
+.planetas__mercurio {
+    position: absolute;
+    top: 1640px;
+    left: 780px;
+    height: 30px;
+    width: 30px;
+}
+
+.planetas__mercurio:hover {
+    transform: scale(2.25);
+    transition: 1s;
+}
+
+#mostrar-venus {
+    display: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #fdfdfd;
+    position: absolute;
+    top: 1640px;
+    left: 865px;
+}
+
+#passar-mouse:hover #mostrar-venus {
+    display: block;
+}
+
+.planetas__venus {
+    position: absolute;
+    top: 1540px;
+    left: 880px;
+    height: 85px;
+    width: 85px;
+}
+
+.planetas__venus:hover {
+    transform: scale(1.4);
+    transition: 0.8s;
+}
+
+#mostrar-terra {
+    display: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #fdfdfd;
+    position: absolute;
+    top: 1563px;
+    left: 324px;
+}
+
+#passar-mouse:hover #mostrar-terra {
+    display: block;
+}
+
+.planetas__terra {
+    position: absolute;
+    top: 1450px;
+    left: 320px;
+    height: 95px;
+    width: 107px;
+}
+
+.planetas__terra:hover {
+    transform: scale(1.25);
+    transition: 0.6s;
+}
+
+#mostrar-marte {
+    display: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #fdfdfd;
+    position: absolute;
+    top: 1290px;
+    left: 495px;
+}
+
+#passar-mouse:hover #mostrar-marte {
+    display: block;
+}
+
+.planetas__marte {
+    position: absolute;
+    top: 1180px;
+    left: 500px;
+    height: 89px;
+    width: 105px;
+}
+
+.planetas__marte:hover {
+    transform: scale(1.3);
+    transition: 0.6s;
+}
+
+#mostrar-jupiter {
+    display: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #fdfdfd;
+    position: absolute;
+    top: 1940px;
+    left: 435px;
+}
+
+#passar-mouse:hover #mostrar-jupiter {
+    display: block;
+}
+
+.planetas__jupiter {
+    position: absolute;
+    top: 1792px;
+    left: 420px;
+    height: 135px;
+    width: 150px;
+}
+
+.planetas__jupiter:hover {
+    transform: scale(1.2);
+    transition: 0.9s;
+}
+
+#mostrar-saturno {
+    display: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #fdfdfd;
+    position: absolute;
+    top: 1230px;
+    left: 985px;
+}
+
+#passar-mouse:hover #mostrar-saturno {
+    display: block;
+}
+
+.planetas__saturno {
+    position: absolute;
+    top: 1100px;
+    left: 960px;
+}
+
+.planetas__saturno:hover {
+    transform: scale(1.22);
+    transition: 0.9s;
+}
+
+#mostrar-urano {
+    display: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #fdfdfd;
+    position: absolute;
+    top: 2085px;
+    left: 1165px;
+}
+
+#passar-mouse:hover #mostrar-urano {
+    display: block;
+}
+
+.planetas__urano {
+    position: absolute;
+    top: 1900px;
+    left: 1150px;
+}
+
+.planetas__urano:hover {
+    transform: scale(1.3);
+    transition: 0.7s;
+}
+
+#mostrar-netuno {
+    display: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #fdfdfd;
+    position: absolute;
+    top: 1150px;
+    left: 85px;
+}
+
+#passar-mouse:hover #mostrar-netuno {
+    display: block;
+}
+
+.planetas__netuno {
+    position: absolute;
+    top: 1040px;
+    left: 100px;
+    height: 91px;
+    width: 100px;
+}
+
+.planetas__netuno:hover {
+    transform: scale(1.4);
+    transition: 0.8s;
+}
+
+/* RODAPÉ */
+
+footer {
+    padding: 20px 0;
+    border-top: 5px solid #0047ab;
+    font-size: 20px;
+    color: #4169e1;
+    background-color: black;
+    text-align: center;
+}
